@@ -1,0 +1,72 @@
+site_name: Modul 117 - Informatik- und Netzinfrastruktur für ein kleines Unternehmen realisieren
+site_url: "https://oliverlux.github.io/modul117"
+
+nav:
+  - 0. Übersicht: index.md
+  - 1. Vorgehensmodell:
+    - IPERKA: 1-10.md
+  - 2. Informieren:
+    - Netzwerkaufbau und -dienste: 2-10.md
+    - Kabel- und Funktechnologie: 2-20.md
+    - Netzwerkgeräte: 2-30.md
+    - Netzwerkadressen: 2-40.md
+    - Netzwerkprotokolle: 2-50.md
+    - CIDR: 2-60.md
+    - CSMA/CD: 2-70.md
+    - OSI-Modell: 2-80.md
+  - 3. Planen und Entscheiden:
+    - Netzwerkkonzept: 3-10.md
+    - Nutzungskonzept: 3-20.md
+  - 4. Realisieren:
+    - Zugriffs- und Freigaberechte: 4-10.md
+    - Praktische Aufgaben: 4-20.md
+  - 5. Kontrollieren:
+    - Testkonzept: 5-10.md
+    - Tests durchführen: 5-20.md
+  - 6. Auswerten:
+    - Dokumentation: 6-10.md
+    - Abnahme und Monitoring: 6-20.md
+
+
+theme:
+  name: material
+  logo: img/logo.png
+  favicon: img/favicon-32x32.png  
+  language: de
+  features:
+    - navigation.instant
+    - toc.integrate
+
+markdown_extensions:
+  - pymdownx.highlight:
+      linenums_style: pymdownx-inline
+      use_pygments: true
+  - pymdownx.inlinehilite
+  - pymdownx.superfences
+  - attr_list
+  - pymdownx.arithmatex:
+      generic: true
+  - admonition
+  - pymdownx.details
+  - footnotes
+  - meta
+  - def_list
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - toc:
+      permalink: true
+      toc_depth: 2
+
+extra_javascript:
+  - javascript/config.js
+  - https://polyfill.io/v3/polyfill.min.js?features=es6
+  - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
+
+extra_css:
+  - stylesheets/extra.css
+copyright: Copyright &copy; 2021 <a href='https://www.gbssg.ch'><span style='font-weight:1000'>gbs</span>sg.ch</a> <span class='green'>|</span> Informatik <span class='green'>|</span> Modul 346
+extra:
+  social:
+    - icon: material/home
+      link: https://www.gbssg.ch
+      name: gbssg.ch
