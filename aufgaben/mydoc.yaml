@@ -1,0 +1,15 @@
+---
+title: "Modul 117"
+subtitle: "Aufgaben"
+author: [Oliver Lux]
+date: "Version 1.0.0"
+subject: ""
+#logo: "/home/luggs/Projekte/icons/code.png"
+toc-own-page: true
+titlepage: true
+titlepage-rule-color: "ffffff"
+titlepage-text-color: "000000"
+titlepage-background: "background.pdf"
+#csl: apa-6th-edition.csl
+colorlinks: true
+...
