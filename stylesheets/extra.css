@@ -33,6 +33,27 @@
   .md-typeset [type="checkbox"]:checked + .task-list-indicator::before {
       background-color:#CCCC00 !important;
   }
+
+
+    /* Farbanpassung bei Success Listen */
+    .md-typeset [type="checkbox"]:checked + .task-list-indicator::before {
+        background-color:#CCCC00 !important;
+    }
+
+    /* Farbanpassung bei aufklappbaren success Boxen*/
+    .md-typeset details.success {
+        border-color:#CCCC00;
+    }
+    .md-typeset .success > summary {
+        background-color:#eeeeee;
+        border-color:#CCCC00;
+    }
+    .md-typeset .success > summary::before {
+        background-color:#CCCC00;
+        border-color:#CCCC00;
+    }
+
+
   
   img + br + em{
       font-size:smaller;
@@ -113,3 +134,4 @@
      font-size: 1.3em;
      color:#CCCC00;
     }
+
